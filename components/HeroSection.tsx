@@ -27,7 +27,7 @@ export default function HeroSection() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              href="#catalogue"
+              href="#contact"
               className="bg-[#4c0519] hover:bg-[#3a0413] text-white font-medium px-6 py-3 rounded-md transition-colors shadow-lg"
             >
               Explore Frames
