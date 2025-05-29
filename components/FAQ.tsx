@@ -48,9 +48,11 @@ export default function FAQ() {
 
         <div className="mt-12 text-center">
           <p className="text-gray-600 mb-4">Don't see your question here? Feel free to contact us!</p>
-          <button className="bg-[#4c0519] text-white hover:bg-[#3a0413] font-medium px-6 py-3 rounded-md transition-colors shadow-lg">
+          <a href="#contact">
+          <button className="bg-[#4c0519] text-white hover:bg-[#3a0413] font-medium px-6 py-3 rounded-md transition-colors shadow-lg" >
             Contact Us
           </button>
+          </a>
         </div>
       </div>
     </section>
