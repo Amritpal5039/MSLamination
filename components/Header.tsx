@@ -17,14 +17,18 @@ export default function Header() {
           <p className="animate-pulse"></p>
         </div>
         <div className="hidden sm:flex space-x-4">
+          <a href="#contact">
           <button className="flex items-center hover:text-white/80 transition-colors">
             <MapPin className="h-3.5 w-3.5 mr-1" />
             <span>Location</span>
           </button>
+          </a>
+          <a href="#contact">
           <button className="flex items-center hover:text-white/80 transition-colors">
             <Phone className="h-3.5 w-3.5 mr-1" />
             <span>Contact us</span>
           </button>
+          </a>
         </div>
       </div>
 
@@ -32,7 +36,9 @@ export default function Header() {
       <div className="bg-white shadow-md text-black py-3 px-4">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="font-serif font-bold text-2xl">
+            <a href="#home">
             <h2>M/S. Delhi Lamination</h2>
+            </a>
           </div>
 
           {/* Desktop navigation */}
