@@ -2,12 +2,14 @@ import Image from "next/image"
 
 export default function Catalogue() {
   const frameStyles = [
-    { id: 1, name: "Classic Wood", image: "/placeholder.svg?height=300&width=300", price: "₹1,200" },
-    { id: 2, name: "Modern Minimalist", image: "/placeholder.svg?height=300&width=300", price: "₹1,500" },
-    { id: 3, name: "Ornate Gold", image: "/placeholder.svg?height=300&width=300", price: "₹1,800" },
-    { id: 4, name: "Rustic Farmhouse", image: "/placeholder.svg?height=300&width=300", price: "₹1,350" },
-    { id: 5, name: "Sleek Metal", image: "/placeholder.svg?height=300&width=300", price: "₹1,650" },
-    { id: 6, name: "Vintage Distressed", image: "/placeholder.svg?height=300&width=300", price: "₹1,450" },
+    { id: 1, name: "Classic", image: "/Untitled-2.gif?height=300&width=300", price: "" },
+    { id: 2, name: "Ornate Gold", image: "/Untitled-1.gif?height=300&width=300", price: "" },
+    { id: 3, name: "Modern Minimalist", image: "/Untitled-3.gif?height=300&width=300", price: "" },
+    { id: 4, name: "Royal Heritage", image: "/Untitled-4.gif?height=300&width=300", price: "" },
+    { id: 5, name: "Celestial Gold", image: "/Untitled-5.gif?height=300&width=300", price: "" },
+    { id: 6, name: "Classic Goldleaf", image: "/Untitled-6.gif?height=300&width=300", price: "" },
+    { id: 7, name: "Wood", image: "/Untitled-7.gif?height=300&width=300", price: "" },
+    { id: 8, name: "Black & Gold", image: "/Untitled-8.gif?height=300&width=300", price: "" },
   ]
 
   return (
@@ -34,23 +36,25 @@ export default function Catalogue() {
                 <h3 className="text-lg font-bold">{frame.name}</h3>
                 <div className="flex justify-between items-center mt-2">
                   <span className="text-[#4c0519] font-medium">{frame.price}</span>
-                  <button className="bg-[#4c0519] text-white px-4 py-2 rounded hover:bg-[#3a0413] transition-colors">
-                    View Details
+                  <a href="#contact">
+                  <button  className="bg-[#4c0519] text-white px-4 py-2 rounded hover:bg-[#3a0413] transition-colors">
+                    Let’s Talk Price!
                   </button>
+                  </a>
                 </div>
               </div>
             </div>
           ))}
         </div>
 
-        <div className="mt-12 text-center">
+        {/* <div className="mt-12 text-center">
           <button className="bg-[#4c0519] text-white hover:bg-[#3a0413] font-medium px-6 py-3 rounded-md transition-colors shadow-lg">
             Upload Your Photo
           </button>
           <p className="mt-4 text-gray-600">
             Want a custom frame for your own photo? Upload it now and we'll help you choose the perfect frame!
           </p>
-        </div>
+        </div> */}
       </div>
     </section>
   )

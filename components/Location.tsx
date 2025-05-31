@@ -67,11 +67,23 @@ export default function Location() {
                 Amritsar-I(143002), Punjab, India
               </ContactItem>
               <ContactItem icon={<Mail className="h-5 w-5" />} title="Email Us">
-                hs406256@gmail.com
+                <a
+                  href="mailto:hs406256@gmail.com"
+                  className=" hover:underline"
+                >
+                  hs406256@gmail.com
+                </a>
               </ContactItem>
+
               <ContactItem icon={<Phone className="h-5 w-5" />} title="Call Us">
-                +91 94783 36731
+                <a
+                  href="tel:+919478336731"
+                  className=" hover:underline"
+                >
+                  +91 94783 36731
+                </a>
               </ContactItem>
+
               <ContactItem
                 icon={<Clock className="h-5 w-5" />}
                 title="Business Hours"

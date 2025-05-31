@@ -5,7 +5,7 @@ import ReviewSlider from "./ReviewSlider"
 import Location from "./Location"
 import AboutUs from "./AboutUs"
 import FAQ from "./FAQ"
-// import Catalogue from "./Catalogue"
+import Catalogue from "./Catalogue"
 import Footer from "./Footer"
 
 export default function HomePage() {
@@ -16,7 +16,7 @@ export default function HomePage() {
         <HeroSection />
         <AboutUs />
         <Services />
-        {/* <Catalogue /> */}
+        <Catalogue />
         <ReviewSlider />
         <FAQ />
         <Location />
