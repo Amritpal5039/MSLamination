@@ -39,7 +39,7 @@ export default function Catalogue() {
         }),
       })
 
-      alert("Order submitted successfully!")
+      alert("Order placed successfully🎉!")
       setShowForm(false)
       setFormData({
         name: "",
